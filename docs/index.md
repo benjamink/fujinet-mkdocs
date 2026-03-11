@@ -5,6 +5,12 @@ tags:
   - home
 ---
 
+<figure markdown="span">
+  ![Welcome to FujiNet!](assets/fujinet-logo-white.png#only-dark){ loading=lazy }
+  ![Welcome to FujiNet!](assets/fujinet-logo-dark.png#only-light){ loading=lazy }
+  <figcaption></figcaption>
+</figure>
+
 # Welcome to FujiNet
 
 <div class="grid cards" markdown>

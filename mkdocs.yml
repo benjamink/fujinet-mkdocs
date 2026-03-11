@@ -8,20 +8,20 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: assets/fujinet-logo.png
-  favicon: assets/fujinet-logo.png
+  logo: assets/fujinet-graphic-black.png # assets/fujinet-logo.png
+  favicon: assets/fujinet-graphic-black.png # assets/fujinet-logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep orange
-      accent: orange
+      primary: orange
+      accent: yellow
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
-      accent: orange
+      primary: orange
+      accent: yellow
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -73,9 +73,12 @@ extra:
       link: https://github.com/FujiNetWIFI
     - icon: fontawesome/brands/discord
       link: https://discord.gg/7MfFTvD
-  analytics:
-    provider: google
-    property: !ENV [GOOGLE_ANALYTICS_KEY, ""]
+#  analytics:
+#    provider: google
+#    property: !ENV [GOOGLE_ANALYTICS_KEY, ""]
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
