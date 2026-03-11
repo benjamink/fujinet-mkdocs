@@ -10,7 +10,7 @@ tags:
 
 ## The elevator pitch
 
-Think of FujiNet as a **Gotek drive — but over Wi-Fi**.
+Think of FujiNet as a **Gotek drive — but over Wi-Fi - and with A LOT more**.
 
 A Gotek lets you plug a USB stick full of disk images into your vintage computer and load software without physical floppy disks. FujiNet goes further: it connects your vintage computer to the internet so you can browse **curated online libraries** of software the moment you power on. No USB sticks to update. No "sneaker-net" (carrying disks around). Just your retro machine, online.
 
