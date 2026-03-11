@@ -1,9 +1,9 @@
 site_name: FujiNet Documentation
-site_url: https://fujinetwifi.github.io/fujinet-mkdocs/
+site_url: https://benjamink.github.io/fujinet-mkdocs/
 site_description: User documentation for FujiNet — the Wi-Fi network adapter for vintage computers
 site_author: The FujiNet Community
-repo_url: https://github.com/FujiNetWIFI/fujinet-mkdocs
-repo_name: FujiNetWIFI/fujinet-mkdocs
+repo_url: https://github.com/benjamink/fujinet-mkdocs
+repo_name: benjamink/fujinet-mkdocs
 edit_uri: edit/main/docs/
 
 theme:
