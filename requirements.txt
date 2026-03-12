@@ -3,3 +3,4 @@ mkdocs-material>=9.5.0
 mkdocs-material[imaging]
 pymdown-extensions>=10.7
 mkdocs-with-pdf
+weasyprint>=52.5,<60

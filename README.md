@@ -29,7 +29,7 @@ ENABLE_PDF_EXPORT=1 mkdocs build
 # Output: site/pdf/fujinet-documentation.pdf
 ```
 
-> **Note:** PDF generation is known to work on Python 3.10–3.12. Python 3.13+ may have WeasyPrint compatibility issues. The CI pipeline always builds with PDF enabled using Python 3.12.
+> **Note:** PDF generation requires WeasyPrint <60 (pinned in requirements.txt). WeasyPrint 60+ added a CSS grid renderer that crashes on the Material theme's HTML. Python 3.10–3.12 is recommended; Python 3.13+ may have additional WeasyPrint compatibility issues. The CI pipeline always builds with PDF enabled using Python 3.12.
 
 ## Contributing
 
