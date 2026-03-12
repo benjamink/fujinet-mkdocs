@@ -43,6 +43,39 @@ theme:
 plugins:
   - search
   - tags
+  - with-pdf:
+      # Only generate PDF during production builds.
+      # Locally: ENABLE_PDF_EXPORT=1 mkdocs build
+      # In CI:   env var set automatically (see .github/workflows/docs.yml)
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #
+      # Document metadata
+      author: The FujiNet Community
+      cover_title: FujiNet Documentation
+      cover_subtitle: The Wi-Fi Network Adapter for Vintage Computers
+      cover_logo: assets/fujinet-graphic-black.png
+      back_cover: false
+      #
+      # Table of contents
+      toc_title: Table of Contents
+      toc_level: 2
+      ordered_chapter_level: 2
+      #
+      # Output
+      output_path: pdf/fujinet-documentation.pdf
+      #
+      # Exclude index/navigation stub pages that don't render well in print
+      exclude_pages:
+        - index.md
+        - getting-started/index.md
+        - config/index.md
+        - features/index.md
+        - games/index.md
+        - contributing/index.md
+      #
+      # Mermaid diagrams require headless Chrome. Disabled by default.
+      # To enable locally: render_js: true  (requires chromium in PATH)
+      render_js: false
 
 markdown_extensions:
   - admonition

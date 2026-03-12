@@ -245,11 +245,12 @@ Examples: `atari-8bit`, `apple-ii`, `commodore-64`, `coleco-adam`, `coco`
 Before opening a pull request:
 
 ```bash
-# Build must succeed with --strict (no warnings)
-mkdocs build --strict
-
 # Start local server and verify all pages render correctly
 mkdocs serve
+
+# Full strict build including PDF (mirrors what CI does; requires Python ≤3.12
+# and WeasyPrint system libs — see README for install instructions)
+ENABLE_PDF_EXPORT=1 mkdocs build --strict
 ```
 
 Check:
@@ -258,7 +259,7 @@ Check:
 - [ ] Mermaid diagrams render correctly
 - [ ] Tabbed content works
 - [ ] No broken images
-- [ ] `mkdocs build --strict` exits with code 0
+- [ ] `ENABLE_PDF_EXPORT=1 mkdocs build --strict` exits with code 0
 
 ## Opening the pull request
 
