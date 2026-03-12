@@ -51,13 +51,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Build documentation (strict HTML validation)
-        run: mkdocs build --strict
-
-      - name: Generate PDF
+      - name: Build documentation (with PDF)
         env:
           ENABLE_PDF_EXPORT: 1
-        run: mkdocs build
+        run: mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
