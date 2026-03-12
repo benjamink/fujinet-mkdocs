@@ -1,0 +1,18 @@
+# CoCo Basics image assets
+
+These images are extracted from `FujiNet_For_CoCo_The_Basics.pdf`.
+
+| Filename | Source page | Description |
+|---|---|---|
+| `network-config.png` | Page 6 | "WELCOME TO FUJINET" Wi-Fi network selection screen |
+| `host-slots.png` | Page 8 | HOST SLOTS screen with TNFS server list |
+| `configuration.png` | Page 10 | FUJINET CONFIGURATION screen (IP, DNS, MAC, firmware version) |
+| `drive-slots.png` | Page 11 | DRIVE SLOTS screen (drives 0–3) |
+| `file-browser.png` | Page 12 | File browser on fujinet.online showing platform directories |
+| `copy-to-host-slot.png` | Page 13 | COPY TO HOST SLOT selection screen |
+| `place-in-device-slot.png` | Page 14 | PLACE IN DEVICE SLOT screen with file details |
+| `news.png` | Page 18 | FujiNet News Topics menu |
+| `weather.jpg` | Page 19 | Weather display screen |
+| `netcat.png` | Page 20 | Netcat terminal showing BBS connection |
+| `wiki.png` | Page 21 | Wiki search results screen |
+| `fujinet-flasher.png` | Page 23 | FujiNet-Flasher Windows application |
