@@ -43,6 +43,8 @@ Select your vintage computer platform below to get a step-by-step connection gui
     Connect via DriveWire or Bit-Banger serial port. Supports CoCo 1, 2, and 3.
 
     [Get started →](coco.md){ .md-button }
+    [The Basics →](coco-basics.md){ .md-button }
+
 
 </div>
 

@@ -64,6 +64,7 @@ tags:
     FujiNet brings the Tandy Color Computer into the world of Wi-Fi networking.
 
     [Get started with CoCo →](getting-started/coco.md){ .md-button .md-button--primary }
+    [CoCo - The Basics →](getting-started/coco-basics.md){ .md-button .md-button--primary }
 
 ---
 

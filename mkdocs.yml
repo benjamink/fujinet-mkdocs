@@ -90,6 +90,7 @@ nav:
     - Coleco ADAM: getting-started/coleco-adam.md
     - Commodore 64: getting-started/commodore-64.md
     - Color Computer (CoCo): getting-started/coco.md
+    - "CoCo: The Basics": getting-started/coco-basics.md
   - Using CONFIG:
     - config/index.md
     - Atari 8-bit: config/atari-8bit.md
